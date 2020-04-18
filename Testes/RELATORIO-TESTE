@@ -27,3 +27,21 @@ Conclusão:
 Código JAVA Alterado:
 	 public int calculaPena(String respostaPrisioneiroA, String respostaPrisioneiroB) {
 
+Segundo teste
+
+Erro:
+	java.lang.Error: Unresolved compilation problems: 
+	Resposta cannot be resolved to a variable
+	Resposta cannot be resolved to a variable
+	Resposta cannot be resolved to a variable
+
+Conclusão:
+	Necessita criação de um ENUM Delação
+	
+Código JAVA Alterado:
+	   public enum Resposta{
+		   DELACAO
+	   }
+	   
+	   public int calculaPena(Resposta respostaPrisioneiroA, Resposta respostaPrisioneiroB) {
+
