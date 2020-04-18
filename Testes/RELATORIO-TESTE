@@ -16,3 +16,14 @@ class TesteNac {
 	}
 
 }
+
+
+Primeiro teste
+Erro:	
+	java.lang.Error: Unresolved compilation problem: 
+	The method calculaPena(Resposta, Resposta) from the type JulgamentoPrisioneiro refers to the missing type Resposta
+Conclusão:
+	Necessita alterar a tipagem do parametro
+Código JAVA Alterado:
+	 public int calculaPena(String respostaPrisioneiroA, String respostaPrisioneiroB) {
+
