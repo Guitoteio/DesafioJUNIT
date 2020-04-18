@@ -1,0 +1,18 @@
+RM81688   Guilherme Arthur dos Ramos Toteio
+
+package nac1;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class TesteNac {
+	String respostaPrisioneiroA = "Culpado", 
+		   respostaPrisioneiraB = "Culpado";
+	JulgamentoPrisioneiro jp = new JulgamentoPrisioneiro();
+	@Test
+	void test() {
+		int julgamento = jp.calculaPena(respostaPrisioneiroA,respostaPrisioneiraB);
+	}
+
+}
